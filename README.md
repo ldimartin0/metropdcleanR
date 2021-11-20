@@ -14,6 +14,15 @@ Coincidentally, Metropolitan PD's data releases are highly, highly messy. These 
 
 For those digging into the `clean_data()`, the function is a pipeline of four functions written inside of it.
 
+## dependencies
+1.0.0 doesn't include `require()` functions, so here are the relevant packages:
+* tidyverse
+* tidyverse associates:
+	* stringr
+	* forcats
+	* purrr
+	* lubridate
+
 ## contact info
 contact me on github :)
 
