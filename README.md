@@ -10,8 +10,9 @@ Coincidentally, Metropolitan PD's data releases are highly, highly messy. This p
 You can install the development version of metropdcleanR from GitHub with:
 ```
 install.packages("devtools")
-devtools::install.github("ldimartin0/metropdcleanR")
+devtools::install_github("ldimartin0/metropdcleanR")
 ```
+
 ## Usage
 Accessing MPD data, which is stored in arbitrarily-separated CSV files on their website, is a fairly difficult task on its own. `metropdcleanR::get_yr_data()` allows you to access that data with one line:
 ```
