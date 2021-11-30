@@ -1,8 +1,3 @@
-library(readr)
-library(dplyr)
-library(purrr)
-library(magrittr)
-
 #' Get MPD Data
 #'
 #' This function grabs stop data from Metropolitan Police Department's website and loads into working memory, and optionally exports that data.
