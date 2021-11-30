@@ -137,7 +137,7 @@ get_2021_data <- function() {
 	return(d)
 }
 
-get_all_data <- function() {
+get_all_data_old <- function() {
 	d19 <- get_2019_data()
 	d20 <- get_2020_data()
 	d21 <- get_2021_data()
