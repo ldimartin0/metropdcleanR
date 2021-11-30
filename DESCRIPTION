@@ -1,10 +1,26 @@
 Package: metropdcleanR
-Title: Imports, Cleans, and Optionally Exports Stop Data from Metropolitan Police Department in Washington DC.
+Title: Imports, Cleans, and Optionally Exports Stop Data from Metropolitan Police Department in Washington DC
 Version: 0.0.0.9000
 Authors@R: 
-    person("Luke", "DiMartino", , "luke.dnu@gmail.com", role = "aut")
+    person("Luke", "DiMartino", , "luke.dnu@gmail.com", role = c("aut", "cre"))
+Maintainer: Luke DiMartino <luke.dnu@gmail.com>
 Description: This package provides functions for scraping Metropolitan Police Department's website for all released stop data (2019-present). Since this data is highly messy, the package also provides a function to clean the data.
 License: MIT + file LICENSE
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.1.2
+Imports: 
+    dplyr,
+    lubridate,
+    magrittr,
+    purrr,
+    readr,
+    stringr,
+    tidyr,
+    utils
+Collate: 
+    'get_data.R'
+    'clean_data.R'
+    'get_all_data.R'
+    'get_data_old.R'
+    'utils-pipe.R'
