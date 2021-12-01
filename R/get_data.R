@@ -55,8 +55,8 @@ get_yr_data <- function(year, export = FALSE) {
 			cols <- intersect(colnames(d), colnames(d_temp))
 			d <- rbind(d[,cols], d_temp[,cols])
 		}
-		sys_cmd <- paste("rm", dest, sep = " ")
-		system(sys_cmd)
+
+		file.remove(dest)
 	}
 
 	# 2019 includes a strange extra variable called observation, removing so that output is uniform
